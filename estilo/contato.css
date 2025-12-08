@@ -1,0 +1,129 @@
+
+.hero-contato {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #e8f5e9;
+}
+
+.hero-contato h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.hero-contato p {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+
+.formulario-contato {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.formulario-contato label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+.formulario-contato input,
+.formulario-contato textarea {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.formulario-contato button.btn-acao {
+  background-color: #FF9800;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.formulario-contato button.btn-acao:hover {
+  background-color: #e68a00;
+}
+
+
+.contato-ong-footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f1f8f2;
+  border-radius: 10px;
+  margin: 2rem auto;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.contato-ong-footer h4 {
+  margin-bottom: 1rem; 
+}
+
+.contato-ong-footer p {
+  margin-bottom: 1rem; 
+}
+
+.contato-ong-footer a {
+  color: #2e7d32;
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+
+.icones-sociais a {
+  display: inline-block;
+  margin: 0 0.5rem;
+  font-weight: 600;
+}
+
+
+
+
+.rodape-banner {
+  position: relative;
+  background-image: url("../assets/img/banner-contato.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 10px;
+  margin: 2rem auto;
+  overflow: hidden;
+}
+
+.rodape-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45); 
+}
+
+.rodape-banner p {
+  position: relative;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+
+.rodape-inferior {
+  text-align: center;
+  font-size: 0.9rem;
+  padding: 1rem;
+  background-color: #2e7d32;
+  margin-top: 1rem;
+}

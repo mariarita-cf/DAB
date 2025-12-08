@@ -1,0 +1,180 @@
+
+.sobre-nos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background-color: #e8f5e9;
+  animation: fadeIn 1s ease-in;
+}
+
+.sobre-nos .sobre-texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.sobre-nos h1 {
+  font-size: 2.5rem;
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.sobre-nos p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+}
+
+.sobre-nos .btn-acao {
+  background: linear-gradient(45deg, #FF9800, #FFC107);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.sobre-nos .btn-acao:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(45deg, #e68a00, #ffb300);
+}
+
+.sobre-nos .sobre-imagem img,
+.sobre-nos .sobre-imagem video {
+  max-width: 900px;
+  width: 100%;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+
+.missao-visao {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  animation: fadeIn 1s ease-in;
+}
+
+.missao-visao .card {
+  flex: 1;
+  min-width: 250px;
+  background: linear-gradient(135deg, #ffffff, #f1f8f2);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.missao-visao .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.missao-visao .card h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+
+.valores {
+  padding: 3rem 2rem;
+  background-color: #f1f8f2;
+}
+
+.valores h2 {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.cards-valores {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card-valor {
+  background: linear-gradient(145deg, #ffffff, #e8f5e9);
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  font-weight: 500;
+  transition: transform 0.3s, box-shadow 0.3s;
+  text-align: center;
+}
+
+.card-valor:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+
+.chamada-acao {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #e8f5e9;
+  animation: fadeIn 1s ease-in;
+}
+
+.chamada-acao h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.chamada-acao p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.botoes-acao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.botoes-acao .btn-acao {
+  background: linear-gradient(45deg, #FF9800, #FFC107);
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.botoes-acao .btn-acao:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(45deg, #e68a00, #ffb300);
+}
+
+
+@keyframes fadeIn {
+  0% {opacity: 0; transform: translateY(20px);}
+  100% {opacity: 1; transform: translateY(0);}
+}
+
+/* ==============================
+   RESPONSIVO
+   ============================== */
+@media (max-width: 768px) {
+  .sobre-nos {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .missao-visao {
+    flex-direction: column;
+  }
+
+  .botoes-acao {
+    flex-direction: column;
+  }
+}

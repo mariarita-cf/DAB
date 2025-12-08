@@ -1,0 +1,78 @@
+.como-ajudar-meio {
+  padding: 4rem 2rem;
+  background-color: #e8f5e9;
+}
+
+.introducao-ajuda {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.introducao-ajuda h1 {
+  color: #2e7d32;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.introducao-ajuda p {
+  font-size: 1.1rem;
+  color: #333;
+}
+
+
+.formas-ajudar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.card-acao {
+  background-color: #ffffff;
+  flex: 1 1 250px;
+  max-width: 300px;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-acao:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.card-acao h2 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+}
+
+.card-acao p {
+  margin-bottom: 1.5rem;
+  color: #333;
+  font-size: 1rem;
+}
+
+.card-acao .btn-acao {
+  display: inline-block;
+  background-color: #FF9800;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+
+.card-acao .btn-acao:hover {
+  background-color: #e68a00;
+}
+
+/* --- RESPONSIVO --- */
+@media (max-width: 768px) {
+  .formas-ajudar {
+    flex-direction: column;
+    align-items: center;
+  }
+}

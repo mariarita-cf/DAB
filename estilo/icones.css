@@ -1,0 +1,22 @@
+.icones-sociais {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.icones-embaixo {
+  display: flex;
+  justify-content: center;
+  width: 100%;  
+  gap: 0.5rem;  
+  margin-top: 0.5rem;
+}
+
+.icones-sociais a {
+  pointer-events: auto;
+}
+
+.icones-sociais a object {
+  pointer-events: none; 
+}
