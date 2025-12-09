@@ -26,31 +26,53 @@ a:hover {
   transition: 0.3s;
 }
 
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 2rem;
+  padding:  0.2rem 1.5rem;
   background-color: #2e7d32;
   color: #ffffff;
   position: static;
   z-index: 1000;
 }
 
+.nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; 
+}
 
-.header .logo img {
-  width: 120px;
-  height: 120px;
-  object-fit: cover; 
-  border-radius: 50%;
-  margin: 0;
-  padding: 0;
+.nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.nav a:hover {
+  color: #FF9800;
 }
 
 
 
+.header .logo img {
+ width: 60px; 
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%; 
+}
+*/
+
+.nav {
+  display: flex;
+  justify-content:right; 
+  align-items: center;
+
+}
 .nav a {
+  margin-left: 1.5rem;
+  font-weight: 500;
+  color: #ffffff;
   margin-left: 1.5rem;
   font-weight: 500;
   color: #ffffff;
@@ -68,6 +90,7 @@ a:hover {
   justify-content: space-between;
   padding: 4rem 2rem;
   background-color: #e8f5e9;
+  gap: 2rem; 
 }
 
 .banner-text {
@@ -78,24 +101,45 @@ a:hover {
 .banner-text h1 {
   font-size: 2.5rem;
   color: #2e7d32;
-  margin-bottom: 1rem;
+  margin-bottom: 1.2rem; 
+  line-height: 1.3;
 }
 
 .banner-text p {
   font-size: 1.2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0; 
+  color: #333333;
+}
+
+.btn-primary {
+  display: inline-block;
+  padding: 0.8rem 2.5rem;
+  font-weight: 600;
+  border-radius: 6px;
+  margin-top: 1.5rem; 
+  cursor: pointer;
+  background-color: #FF9800;
+  color: #ffffff;
+  transition: background-color 0.3s;
+  text-align: center;
+}
+
+.btn-primary:hover {
+  background-color: #e68900;
 }
 
 .banner-imagem {
   flex: 1 1 400px;
   text-align: center;
-  width: 200px;
+  max-width: 950px; 
+  width: 100%;
 }
 
 .banner-imagem img {
   max-width: 100%;
-  border-radius: 8px;
+  
 }
+
 
 
 .btn {
@@ -148,16 +192,22 @@ a:hover {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .cartao-iniciativa:hover {
+ 
   transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(255, 152, 0, 0.5);
 }
 
 .cartao-iniciativa img {
   width: 100%;
   display: block;
+   transform: translateY(-5px);
+  border: 2px solid #FF9800; 
+  box-shadow: 0 6px 12px rgba(255, 152, 0, 0.3); 
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .cartao-iniciativa h3 {

@@ -1,0 +1,73 @@
+.secao-vaquinhas {
+  padding: 4rem 2rem;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.secao-vaquinhas h1 {
+  color: #2e7d32;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.secao-vaquinhas p {
+  color: #555555;
+  margin-bottom: 3rem;
+  font-size: 1.2rem;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vaquinhas-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.vaquinha-bloco {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  gap: 1.5rem;
+  transition: transform 0.3s;
+}
+
+.vaquinha-bloco:hover {
+  transform: translateY(-5px);
+}
+
+.vaquinha-bloco img {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.vaquinha-info h3 {
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+.vaquinha-info p {
+  color: #555555;
+  margin-bottom: 1rem;
+}
+
+.vaquinha-info .btn {
+  margin-top: auto;
+}
+
+/* RESPONSIVO */
+@media(max-width: 768px) {
+  .vaquinha-bloco {
+    flex-direction: column;
+    text-align: center;
+  }
+  .vaquinha-bloco img {
+    margin-bottom: 1rem;
+  }
+}

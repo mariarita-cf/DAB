@@ -44,7 +44,7 @@
 .sobre-nos .sobre-imagem img,
 .sobre-nos .sobre-imagem video {
   max-width: 900px;
-  width: 100%;
+  width: 50%;
   border-radius: 15px;
   object-fit: cover;
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
