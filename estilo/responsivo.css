@@ -5,33 +5,35 @@
   align-items: center;
 }
 
-
 .menu-toggle {
   display: none;
 }
 
 
 @media (max-width: 768px) {
-  .nav {
-    display: none; /* esconde o menu normal */
-    flex-direction: column;
-    background-color: #2e7d32;
-    position: absolute;
-    top: 60px; /* altura do header */
-    right: 0;
-    width: 200px;
-    padding: 1rem;
-    border-radius: 8px;
-  }
-
-  .nav.active {
-    display: flex; /* mostra quando o JS ativa */
-  }
-
   .menu-toggle {
-    display: block; /* só aparece no mobile */
+    display: block;
     cursor: pointer;
     font-size: 1.8rem;
     color: #ffffff;
+  }
+
+  .nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;          
+    top: 0;
+    right: -250px;            
+    width: 250px;
+    height: 100%;
+    background-color: #4caf50; 
+    padding: 2rem 1rem;
+    gap: 1.5rem;
+    transition: right 0.3s ease-in-out;
+    z-index: 999;
+  }
+
+  .nav.active {
+    right: 0; 
   }
 }
