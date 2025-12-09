@@ -1,0 +1,37 @@
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+
+.menu-toggle {
+  display: none;
+}
+
+
+@media (max-width: 768px) {
+  .nav {
+    display: none; /* esconde o menu normal */
+    flex-direction: column;
+    background-color: #2e7d32;
+    position: absolute;
+    top: 60px; /* altura do header */
+    right: 0;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .nav.active {
+    display: flex; /* mostra quando o JS ativa */
+  }
+
+  .menu-toggle {
+    display: block; /* só aparece no mobile */
+    cursor: pointer;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+}
