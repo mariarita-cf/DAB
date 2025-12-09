@@ -161,20 +161,3 @@
   100% {opacity: 1; transform: translateY(0);}
 }
 
-/* ==============================
-   RESPONSIVO
-   ============================== */
-@media (max-width: 768px) {
-  .sobre-nos {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
-
-  .missao-visao {
-    flex-direction: column;
-  }
-
-  .botoes-acao {
-    flex-direction: column;
-  }
-}

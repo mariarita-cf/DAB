@@ -125,7 +125,3 @@
   color: #000;
 }
 
-/* RESPONSIVO */
-@media (max-width: 600px) {
-  .modal-conteudo { padding: 1rem; }
-}

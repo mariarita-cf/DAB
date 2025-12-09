@@ -69,10 +69,4 @@
   background-color: #e68a00;
 }
 
-/* --- RESPONSIVO --- */
-@media (max-width: 768px) {
-  .formas-ajudar {
-    flex-direction: column;
-    align-items: center;
-  }
-}
+

@@ -61,13 +61,3 @@
   margin-top: auto;
 }
 
-/* RESPONSIVO */
-@media(max-width: 768px) {
-  .vaquinha-bloco {
-    flex-direction: column;
-    text-align: center;
-  }
-  .vaquinha-bloco img {
-    margin-bottom: 1rem;
-  }
-}

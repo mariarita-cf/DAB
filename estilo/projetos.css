@@ -194,19 +194,4 @@
   }
 }
 
-/* --- RESPONSIVO --- */
-@media (max-width: 768px) {
-  .projetos-hero {
-    flex-direction: column-reverse;
-    text-align: center;
-  }
 
-  .lista-projetos, .cards-impacto, .fotos-projetos {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .card-projeto, .card-impacto, .fotos-projetos img {
-    max-width: 100%;
-  }
-}
