@@ -1,6 +1,6 @@
 .como-ajudar-meio {
   padding: 4rem 2rem;
-  background-color: #e8f5e9;
+  background-color: var(--branco);
 }
 
 .introducao-ajuda {
@@ -9,16 +9,15 @@
 }
 
 .introducao-ajuda h1 {
-  color: #2e7d32;
+  color: var(--verde); 
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
 
 .introducao-ajuda p {
   font-size: 1.1rem;
-  color: #333;
+  color: var(--preto); 
 }
-
 
 .formas-ajudar {
   display: flex;
@@ -28,7 +27,7 @@
 }
 
 .card-acao {
-  background-color: #ffffff;
+  background-color: var(--branco);
   flex: 1 1 250px;
   max-width: 300px;
   padding: 2rem;
@@ -44,20 +43,20 @@
 }
 
 .card-acao h2 {
-  color: #2e7d32;
+  color: var(--verde);
   margin-bottom: 1rem;
 }
 
 .card-acao p {
   margin-bottom: 1.5rem;
-  color: #333;
+  color: var(--preto);
   font-size: 1rem;
 }
 
 .card-acao .btn-acao {
   display: inline-block;
-  background-color: #FF9800;
-  color: #fff;
+  background-color: var(--laranja);
+  color: var(--branco);
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   text-decoration: none;
@@ -66,7 +65,5 @@
 }
 
 .card-acao .btn-acao:hover {
-  background-color: #e68a00;
+  background-color: var(--verde);
 }
-
-

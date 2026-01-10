@@ -1,36 +1,34 @@
-
 .hero-contato {
   text-align: center;
   padding: 4rem 2rem;
-  background-color: #e8f5e9;
+  background-color: #FFFFFF;
 }
 
 .hero-contato h1 {
   font-size: 2.5rem;
-  color: #2e7d32;
+  color: #1E725A; 
   margin-bottom: 1rem;
 }
 
 .hero-contato p {
   font-size: 1.2rem;
-  color: #333;
+  color: #1E725A; 
 }
-
 
 .formulario-contato {
   max-width: 600px;
   margin: 2rem auto;
   padding: 2rem;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   border-radius: 10px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(30,114,90,0.1); 
 }
 
 .formulario-contato label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 600;
-  color: #2e7d32;
+  color: #1E725A; 
 }
 
 .formulario-contato input,
@@ -38,14 +36,14 @@
   width: 100%;
   padding: 0.75rem 1rem;
   margin-bottom: 1.5rem;
-  border: 1px solid #ccc;
+  border: 1px solid #1E725A;
   border-radius: 5px;
   font-size: 1rem;
 }
 
 .formulario-contato button.btn-acao {
-  background-color: #FF9800;
-  color: #fff;
+  background-color: #FF9E00; 
+  color: #FFFFFF; 
   padding: 0.75rem 1.5rem;
   border: none;
   border-radius: 5px;
@@ -55,30 +53,27 @@
 }
 
 .formulario-contato button.btn-acao:hover {
-  background-color: #e68a00;
+  background-color: #1E725A;
 }
-
 
 .contato-ong-footer {
   text-align: center;
   padding: 2rem;
-  background-color: #f1f8f2;
+  background-color: #FFFFFF; 
   border-radius: 10px;
   margin: 2rem auto;
   max-width: 600px;
   line-height: 1.6;
 }
 
-.contato-ong-footer h4 {
-  margin-bottom: 1rem; 
-}
-
+.contato-ong-footer h4,
 .contato-ong-footer p {
-  margin-bottom: 1rem; 
+  margin-bottom: 1rem;
+  color: #1E725A; 
 }
 
 .contato-ong-footer a {
-  color: #2e7d32;
+  color: #FF9E00; 
   text-decoration: none;
   margin: 0 0.5rem;
 }
@@ -89,9 +84,6 @@
   font-weight: 600;
 }
 
-
-
-
 .rodape-banner {
   position: relative;
   background-image: url("../assets/img/banner-contato.jpg");
@@ -100,7 +92,7 @@
   background-repeat: no-repeat;
   padding: 4rem 2rem;
   text-align: center;
-  color: #ffffff;
+  color: #FFFFFF; 
   border-radius: 10px;
   margin: 2rem auto;
   overflow: hidden;
@@ -110,7 +102,7 @@
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(0,0,0,0.45); 
+  background: rgba(30,114,90,0.45); 
 }
 
 .rodape-banner p {
@@ -119,11 +111,11 @@
   font-weight: 600;
 }
 
-
 .rodape-inferior {
   text-align: center;
   font-size: 0.9rem;
   padding: 1rem;
-  background-color: #2e7d32;
+  background-color: #1E725A; 
   margin-top: 1rem;
+  color: #FFFFFF; 
 }

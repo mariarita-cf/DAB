@@ -1,11 +1,10 @@
-
 .sobre-nos {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
   padding: 4rem 2rem;
-  background-color: #e8f5e9;
+  background-color: #FFFFFF;
   animation: fadeIn 1s ease-in;
 }
 
@@ -16,7 +15,7 @@
 
 .sobre-nos h1 {
   font-size: 2.5rem;
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 1rem;
 }
 
@@ -24,11 +23,12 @@
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
   line-height: 1.6;
+  color: #000000;
 }
 
 .sobre-nos .btn-acao {
-  background: linear-gradient(45deg, #FF9800, #FFC107);
-  color: #fff;
+  background-color: #FF9E00;
+  color: #FFFFFF;
   padding: 0.75rem 1.5rem;
   text-decoration: none;
   border-radius: 8px;
@@ -38,7 +38,7 @@
 
 .sobre-nos .btn-acao:hover {
   transform: translateY(-3px);
-  background: linear-gradient(45deg, #e68a00, #ffb300);
+  background-color: #1E725A;
 }
 
 .sobre-nos .sobre-imagem img,
@@ -49,7 +49,6 @@
   object-fit: cover;
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
 }
-
 
 .missao-visao {
   display: flex;
@@ -62,7 +61,7 @@
 .missao-visao .card {
   flex: 1;
   min-width: 250px;
-  background: linear-gradient(135deg, #ffffff, #f1f8f2);
+  background-color: #FFFFFF;
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -75,19 +74,18 @@
 }
 
 .missao-visao .card h2 {
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 1rem;
 }
 
-
 .valores {
   padding: 3rem 2rem;
-  background-color: #f1f8f2;
+  background-color: #FFFFFF;
 }
 
 .valores h2 {
   text-align: center;
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 2rem;
   font-size: 2rem;
 }
@@ -100,7 +98,7 @@
 }
 
 .card-valor {
-  background: linear-gradient(145deg, #ffffff, #e8f5e9);
+  background-color: #FFFFFF;
   padding: 1rem 1.5rem;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -112,18 +110,18 @@
 .card-valor:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  color: #000000;
 }
-
 
 .chamada-acao {
   text-align: center;
   padding: 3rem 2rem;
-  background-color: #e8f5e9;
+  background-color: #FF9E00;
   animation: fadeIn 1s ease-in;
 }
 
 .chamada-acao h2 {
-  color: #2e7d32;
+  color: #FFFFFF;
   margin-bottom: 1rem;
   font-size: 2rem;
 }
@@ -131,6 +129,7 @@
 .chamada-acao p {
   font-size: 1.1rem;
   margin-bottom: 2rem;
+  color: #FFFFFF;
 }
 
 .botoes-acao {
@@ -141,8 +140,8 @@
 }
 
 .botoes-acao .btn-acao {
-  background: linear-gradient(45deg, #FF9800, #FFC107);
-  color: #fff;
+  background-color: #FFFFFF;
+  color: #FF9E00;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
   font-weight: 600;
@@ -152,12 +151,11 @@
 
 .botoes-acao .btn-acao:hover {
   transform: translateY(-3px);
-  background: linear-gradient(45deg, #e68a00, #ffb300);
+  background-color: #1E725A;
+  color: #FFFFFF;
 }
-
 
 @keyframes fadeIn {
   0% {opacity: 0; transform: translateY(20px);}
   100% {opacity: 1; transform: translateY(0);}
 }
-

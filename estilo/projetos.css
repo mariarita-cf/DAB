@@ -1,11 +1,10 @@
-
 .projetos-hero {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 4rem 2rem;
-  background-color: #e8f5e9;
+  background-color: #FFFFFF;
   opacity: 0;
   transform: translateY(20px);
   animation: fadeInUp 1s forwards;
@@ -18,13 +17,14 @@
 
 .projetos-hero h1 {
   font-size: 2.5rem;
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 1rem;
 }
 
 .projetos-hero p {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
+  color: #000000;
 }
 
 .projetos-hero .hero-imagem img,
@@ -34,7 +34,6 @@
   border-radius: 10px;
   object-fit: cover;
 }
-
 
 .lista-projetos {
   display: flex;
@@ -48,7 +47,7 @@
   flex: 1;
   min-width: 250px;
   max-width: 300px;
-  background: linear-gradient(145deg, #ffffff, #f1f8f2);
+  background: #FFFFFF;
   padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
@@ -69,18 +68,19 @@
 }
 
 .card-projeto h2 {
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 1rem;
 }
 
 .card-projeto p {
   font-size: 1rem;
   margin-bottom: 1.5rem;
+  color: #000000;
 }
 
 .card-projeto .btn-acao {
-  background-color: #FF9800;
-  color: #fff;
+  background-color: #FF9E00;
+  color: #FFFFFF;
   padding: 0.75rem 1.5rem;
   border-radius: 5px;
   font-weight: 600;
@@ -89,17 +89,17 @@
 }
 
 .card-projeto .btn-acao:hover {
-  background-color: #e68a00;
+  background-color: #1E725A;
 }
 
 .impacto {
-  background-color: #f1f8f2;
+  background-color: #FFFFFF;
   padding: 3rem 2rem;
   text-align: center;
 }
 
 .impacto h2 {
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateY(20px);
@@ -118,7 +118,7 @@
   flex: 1;
   min-width: 180px;
   max-width: 220px;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   padding: 1.5rem;
   border-radius: 10px;
   font-weight: 500;
@@ -138,6 +138,9 @@
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
 }
 
+.card-impacto h3, .card-impacto p {
+  color: #000000;
+}
 
 .galeria {
   padding: 3rem 2rem;
@@ -145,7 +148,7 @@
 }
 
 .galeria h2 {
-  color: #2e7d32;
+  color: #1E725A;
   margin-bottom: 2rem;
   opacity: 0;
   transform: translateY(20px);
@@ -185,7 +188,6 @@
 .botoes-projetos .btn-acao {
   margin: 0.5rem;
 }
-
 
 @keyframes fadeInUp {
   to {
