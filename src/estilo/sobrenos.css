@@ -41,13 +41,19 @@
   background-color: #1E725A;
 }
 
-.sobre-nos .sobre-imagem img,
-.sobre-nos .sobre-imagem video {
-  max-width: 900px;
-  width: 50%;
+.sobre-imagem {
+  flex: 1 1 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sobre-imagem img {
+  max-width: 700px;
+  width: 100%;
   border-radius: 15px;
   object-fit: cover;
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
 .missao-visao {
@@ -64,13 +70,13 @@
   background-color: #FFFFFF;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .missao-visao .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .missao-visao .card h2 {
@@ -101,7 +107,7 @@
   background-color: #FFFFFF;
   padding: 1rem 1.5rem;
   border-radius: 12px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   font-weight: 500;
   transition: transform 0.3s, box-shadow 0.3s;
   text-align: center;
@@ -109,7 +115,7 @@
 
 .card-valor:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
   color: #000000;
 }
 
@@ -156,6 +162,13 @@
 }
 
 @keyframes fadeIn {
-  0% {opacity: 0; transform: translateY(20px);}
-  100% {opacity: 1; transform: translateY(0);}
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
